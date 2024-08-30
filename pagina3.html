@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Figueira</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x600/?shopping') no-repeat center center/cover;
+            color: #000000;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-top: 1rem;
+        }
+        .categories, .products, .cta {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .categories h2, .products h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .categories ul, .products ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .categories li, .products li {
+            background: #fff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            flex: 1 1 calc(25% - 2rem);
+            text-align: center;
+        }
+        .categories img, .products img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .cta {
+            background-color: #080808;
+            color: #fff;
+            text-align: center;
+            padding: 2rem;
+            border-radius: 8px;
+        }
+        .cta h2 {
+            font-size: 2rem;
+        }
+        .cta p {
+            font-size: 1.2rem;
+        }
+        .cta button {
+            background: #fff;
+            color: #000000;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+        }
+        footer p {
+            margin: 0;
+        }
+        @media (max-width: 768px) {
+            .categories li, .products li {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <img src="Store.png" alt="">
+        
+    </header>
+    <section class="hero">
+        <h2>Encontre o que você precisa</h2>
+        <p>Explore nossas ofertas e descubra os produtos mais populares de Florianópolis.</p>
+
+        <a href="index.html">Voltar para HOME</a>
+    <br>
+    <a href="pagina2.html">Ir para Serviços</a>
+    <br>
+    
+    </section>
+    <section class="categories">
+        <h2>Categorias</h2>
+        <ul>
+            <li>
+                <img src="emoji cam.png" alt="Camisas">
+                <h3>Camisas</h3>
+            </li>
+            <li>
+                <img src="emoji short.png" alt="Shorts">
+                <h3>Shorts</h3>
+            </li>
+            <li>
+                <img src="emoji casaco.jpg" alt="Casaco">
+                <h3>Casaco</h3>
+            </li>
+            <li>
+                <img src="" alt="Outros">
+                <h3>Outros</h3>
+            </li>
+        </ul>
+    </section>
+    <section class="products">
+        <h2>Ofertas Especiais</h2>
+        <ul>
+            <li>
+                <img src="Cam.Prin.jpg" alt="Produto 1">
+                <h3>Camisa de Jogo</h3>
+                <p>Camisa de jogo principal.</p>
+                <p><strong>R$ 349,99</strong></p>
+            </li>
+            <li>
+                <img src="Camisa 2.jpg" alt="Produto 2">
+                <h3>Camisa de Jogo 2</h3>
+                <p>Camisa de jogo principal 2.</p>
+                <p><strong>R$ 299,99</strong></p>
+            </li>
+            <li>
+                <img src="Treino.jpg" alt="Produto 3">
+                <h3>Camisa Treino</h3>
+                <p>Camisa de treino/aquecimento.</p>
+                <p><strong>R$ 199,99</strong></p>
+            </li>
+            <li>
+                <img src="casaco.jpg" alt="Produto 4">
+                <h3>Casaco Viagem</h3>
+                <p>Casaco para Viagem.</p>
+                <p><strong>R$ 699,99</strong></p>
+            </li>
+        </ul>
+    </section>
+    <section class="cta">
+        <h2>Não perca nossas ofertas!</h2>
+        <p>Assine nossa newsletter e receba as melhores ofertas diretamente no seu e-mail.</p>
+        <button>Assinar</button>
+    </section>
+    <footer>
+        <p>&copy; 2024 Loja Figeuira. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
